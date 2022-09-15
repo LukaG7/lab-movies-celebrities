@@ -32,3 +32,5 @@ app.use('/', index);
 require('./error-handling')(app);
 
 module.exports = app;
+
+app.listen(3000, () => console.log('yo app is listening'));
